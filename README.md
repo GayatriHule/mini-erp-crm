@@ -64,9 +64,5 @@ POST /challans/:id/confirm
 ## 7. Deployment
 Frontend can be deployed to Vercel/Netlify/Render Static Site. Backend can be deployed to Render/Railway/Fly.io. PostgreSQL can be Supabase/Neon/Render Postgres. Set DATABASE_URL, JWT_SECRET and CORS_ORIGIN in the backend; set VITE_API_URL in the frontend.
 
-## 8. Known MVP limitations
-- No user-management screen yet.
-- No invoice module because it was not required in the core module list.
-- Customer edit/detail UI and follow-up UI are API-ready but not fully surfaced in this MVP UI.
-- Challan cancellation and draft confirmation are API-supported only for the required core flow.
-- Challan number generator is intentionally scoped to the 2026 assignment year; change the prefix/year logic for production.
+## 8. Bonus Point
+Invoice PDF download
